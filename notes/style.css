@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+input,textarea,select
+{
+padding:5px;
+font-size:14px;
+box-shadow:0px 0px 10px #000000;
+padding:5px;
+margin:5px;
+width:280px;
+}
+#notes
+{
+padding:10px;
+border:1px solid black;
+border-radius:5px;
+margin:20px;
+display:block;
+}
+#notes_file
+{
+width:400px;
+display:block;
+}

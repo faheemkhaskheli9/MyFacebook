@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+.vote_up_button,.vote_down_button,.vote_up_counts,.vote_down_counts,.my_vote_button
+{
+padding:5px;
+margin:5px;
+color:#FFFFFF;
+border-radius:5px;
+display:inline-block;
+}
+.vote_up_button,.vote_down_button
+{
+background-color:#0066FF;
+cursor:pointer;
+padding-top:10px;
+padding-right:10px;
+margin-right:0px;
+}
+.my_vote_button
+{
+background-color:#FF0000;
+cursor:pointer;
+padding-top:10px;
+padding-right:10px;
+}
+.vote_up_counts,.vote_down_counts
+{
+background-color:#333333;
+margin-left:6px;
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+#map_page
+{
+width:100%;
+margin:5px;
+margin-top:70px;
+max-height:99%;
+}

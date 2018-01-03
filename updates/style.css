@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+#show_more_div
+{
+width:200px;
+padding:20px;
+}
+#show_more_div div
+{
+background-color:#0066FF;
+padding:10px;
+width:200px;
+color:#FFFFFF;
+border-radius:5px;
+cursor:pointer;
+}
+#new_update_div
+{
+background-color:#FFFFFF;
+padding-top:40px;
+padding-bottom:20px;
+margin:40px;
+box-shadow:0px 0px 20px #000000;
+border-radius:5px;
+z-index:999;
+width:620px;
+}
+#new_update_div #heading
+{
+margin-top:-20px;
+margin-bottom:10px;
+font-size:30px;
+}
+#new_update_title
+{
+padding:5px;
+width:500px;
+border:1px solid black;
+border-radius:5px;
+}
+#new_update_textarea
+{
+border:1px solid black;
+padding:5px;
+border-radius:5px;
+font-size:12px;
+width:580px;
+min-height:50px;
+max-height:320px;
+overflow-x:hidden;
+overflow-y:auto;
+text-align:left;
+cursor:text;
+margin:5px;
+}
+#new_update .button
+{
+margin:10px;
+cursor:pointer;
+}
+.update_tab
+{
+margin:30px;
+cursor:pointer;
+padding-bottom:10px;
+min-height:100px;
+border:1px solid black;
+border-radius:5px;
+box-shadow:0px 5px 10px #000000;
+width:620px;
+padding:20px;
+}
+.update_tab a
+{
+text-decoration:none;
+color:#006699;
+}
+.update_tab a:visited;
+{
+text-decoration:none;
+color:#006699;
+}
+.update_tab #heading
+{
+box-shadow:0px 5px 2px #000000;
+text-align:center;
+background-color:#0066FF;
+border-radius:2px;
+color:#FFFFFF;
+margin-top:-20px;
+}
+.update_tab #status
+{
+padding:6px;
+overflow:hidden;
+width:570px;
+word-wrap:break-word;
+overflow-y:auto;
+margin-left:10px;
+}
+.update_tab #detail
+{
+padding:10px;
+}
+#fav_menu
+{
+position:absolute;
+top:100px;
+left:20px;
+width:200px;
+text-align:left;
+border-radius:5px;
+overflow:hidden;
+border:1px solid #0066FF;
+box-shadow:2px 2px 2px #000000;
+}
+#fav_menu #heading
+{
+padding:5px;
+background-color:#0066FF;
+color:#FFFFFF;
+font-size:18px;
+}
+#fav_menu #menu_items
+{
+margin-top:5px;
+}
+#fav_menu #menu_items a
+{
+cursor:pointer;
+text-decoration:none;
+color:#000000;
+margin:5px;
+display:block;
+}
+#fav_menu #menu_items span
+{
+padding:5px;
+display:block;
+border-radius:5px;
+}
+#fav_menu #menu_items span:hover
+{
+background-color:#0099CC;
+color:#FFFFFF;
+}
+.comments_box
+{
+background-color:#CCCCCC;
+width:600px;
+margin-top:10px;
+border-top:1px solid gray;
+}
+.single_comment
+{
+
+}

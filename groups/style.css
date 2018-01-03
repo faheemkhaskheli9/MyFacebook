@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+input
+{
+padding:5px;
+font-size:14px;
+box-shadow:0px 0px 10px #000000;
+margin:5px;
+width:300px;
+}
+.results
+{
+margin-top:20px;
+text-align:center;
+}
+#group
+{
+text-align:left;
+padding:10px;
+border:1px solid black;
+border-radius:5px;
+margin:20px;
+display:block;
+width:600px;
+}
+#group_Image
+{
+width:200px;
+display:inline-block;
+transition-property: width;
+transition-duration: 1s;
+transition-timing-function: linear;
+transition-delay: 0s;
+}
+#group_Image img
+{
+width:100%;
+}
